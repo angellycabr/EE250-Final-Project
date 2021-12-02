@@ -1,13 +1,12 @@
 import requests
 import json
 import random
+import pickle
 
 
 def music_init():
 
-    genre_json = requests.get("http://172.17.0.2:5000/classify?w=50").json()
-    
-    gen = genre_json['genre']
+    gen = pickle.load(open("req.pickle", "rb"))
     print(gen)
     
     artist = {
