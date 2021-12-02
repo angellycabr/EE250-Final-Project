@@ -17,7 +17,7 @@ for x in range(200):
  # Read the sound level
     sensor_value = grovepi.analogRead(sound_sensor)
     samples = samples + sensor_value
-    #print("sensor_value = %d" %sensor_value)
+    print("sensor_value = %d" %sensor_value)
     time.sleep(.1)
 
 samples = samples/200
