@@ -4,7 +4,7 @@ import json
 
 def music_init():
 
-    genre_json = requests.get("http://172.17.0.3:5000/classify?w=50").json()
+    genre_json = requests.get("http://172.17.0.2:5000/classify?w=50").json()
     
     gen = genre_json['genre']
     print(gen)
