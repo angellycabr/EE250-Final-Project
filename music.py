@@ -3,6 +3,7 @@ import json
 import random
 import pickle
 
+#Genius API https://rapidapi.com/brianiswu/api/genius/
 
 def music_init():
 
