@@ -1,5 +1,6 @@
 import requests
 import json
+import random
 
 
 def music_init():
