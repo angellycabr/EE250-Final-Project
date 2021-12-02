@@ -13,7 +13,7 @@ To run this program please do the following
 - docker build -t ee250:genre .
 - docker run ee250:genre --net=host
 - curl -XGET "http://172.17.0.3:5000/classify?w=20" #BE SURE TO MODIFY THE IP ADDRESS BASED ON THE NEW SERVER ADDRESS
-7. On the VM termin run music.py, be sure to modify line 7 with the correct IP address
+7. On the VM terminal run music.py, be sure to modify line 7 with the correct IP address
 8. On the RPI run _______
 9. Enjoy your new song reccomendation! 
 
