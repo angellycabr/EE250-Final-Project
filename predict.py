@@ -2,7 +2,6 @@ import pickle
 from flask import Flask,request
 from flask import jsonify
 import json
-#import soundsensor
 
 clf = pickle.load(open('model.pickle','rb'))
 
