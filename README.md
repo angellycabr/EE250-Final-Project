@@ -17,6 +17,6 @@ To run this program please do the following
 8. On the RPI run _______
 9. Enjoy your new song reccomendation! 
 
-Demo: 
+Video on how to run: https://drive.google.com/file/d/1Yf-YXuU6MPjE1gkStLYMi2cwt3iWnAL1/view?usp=sharing 
 
-
+Project Demo:
