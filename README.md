@@ -12,11 +12,11 @@ To run this program please do the following
 6. On the VM terminal pull from the respository and create a Docker with the following lines:
 - docker build -t ee250:genre .
 - docker run ee250:genre --net=host
-- curl -XGET "http://172.17.0.3:5000/classify?w=20" #BE SURE TO MODIFY THE IP ADDRESS BASED ON THE NEW SERVER ADDRESS
-7. On the VM terminal run music.py, be sure to modify line 7 with the correct IP address
-8. On the RPI run _______
-9. Enjoy your new song reccomendation! 
+- modify and save request.py on line 4 #BE SURE TO MODIFY THE IP ADDRESS BASED ON THE NEW SERVER ADDRESS
+7. Add and commit req.pickle to the repository for the RPI to access these changes!
+8. On the RPI run final_api.py
+9. Enjoy your new song reccomendations! 
 
 Video on how to run: https://drive.google.com/file/d/1Yf-YXuU6MPjE1gkStLYMi2cwt3iWnAL1/view?usp=sharing 
 
-Project Demo:
+Project Demo: https://drive.google.com/file/d/1GkxBUSIbuP31J0M08WUspBreWrEu-XnZ/view?usp=sharing
