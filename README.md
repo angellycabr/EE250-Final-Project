@@ -1,5 +1,5 @@
 # Music Genre Classifier with Raspberry Pi & K-Means Clustering 🎵 — EE250-Final-Project
-This project explores real-time music genre classification using **volume sensor input** on a Raspberry Pi and **k-means clustering** to generate personalized song recommendations. The system communicates between a Raspberry Pi and a Dockerized virtual machine, combining embedded systems, unsupervised learning, and distributed computing.
+This project explores real-time music genre classification using **volume sensor input** on a Raspberry Pi and k-means clustering to generate personalized song recommendations. The system communicates between a Raspberry Pi and a Dockerized virtual machine, combining embedded systems, unsupervised learning, and distributed computing.
 
 # 🛠 Instructions:
 To run this program, please do the following
